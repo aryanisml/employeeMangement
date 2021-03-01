@@ -1,0 +1,14 @@
+.container {
+    .container__actions {
+        display:flex;
+        width: 35%;
+        justify-content: space-evenly;
+    }
+    .ng-valid[required], .ng-valid.required {
+        border-left:5px solid green;
+    }
+    .ng-invalid:not(form){
+        border-left:5px solid red;
+    }
+}
+

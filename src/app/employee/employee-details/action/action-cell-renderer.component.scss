@@ -1,0 +1,18 @@
+.container {
+    display:flex;
+    align-items: center;
+    outline: none;
+}
+.container__delete {
+  color:red;
+  cursor: pointer;
+  outline: none;
+}
+.container__edit{
+  color:blue;
+  cursor: pointer;
+  outline: none;
+}
+.container__edit:focus{
+  outline: none;
+}

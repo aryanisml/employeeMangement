@@ -1,0 +1,10 @@
+<nav class="navbar navbar-light bg-light Header">
+  <div class="header__nav">
+    <a [routerLink]="['/employee/add']"> Add </a>
+    <a [routerLink]="['/employee/']"> Details </a>
+  </div>
+  <div class="header__count">
+    Employee {{count}}
+  </div>
+</nav>
+<router-outlet></router-outlet>

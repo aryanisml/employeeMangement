@@ -1,0 +1,12 @@
+<div class="container">
+   <div class="mat-dialog-title">
+    <span>{{config.title}}</span>
+  </div>
+   <div class="mat-dialog-content">
+    <span>{{config.message}}</span>
+   </div>
+  <div class="mat-dialog-actions container__actions">
+    <button class="btn-primary" (click)="okClick()">{{config.okay}}</button>
+    <button class="btn-secondary" (click)="closeClick()">{{config.cancel}}</button>
+  </div> 
+</div>
